@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Surf Record | Manish</title>
+        <link rel="stylesheet" href="css/main_style.css">
+        <!-- Font awesome is required for the little settings icon on the top left -->
+        <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/vex.css" />
+        <link rel="stylesheet" href="css/vex-theme-top.css"/>
+    </head>
+    <body>
+        <i class="fa fa-ellipsis-v settings"></i>
+        <div class="settingsPanel from-left">
+            <div class="settingsContainer">
+                <div class="settingsHeader">WEBSITES BEING TRACKED</div>
+                <input type="text" class="tracksiteInput" id = "firstSite">
+                <input type="text" class="tracksiteInput" id = "secondSite">
+                <input type="text" class="tracksiteInput" id = "thirdSite">
+                <input type="text" class="tracksiteInput" id = "fourthSite">
+                <input type="text" class="tracksiteInput" id = "fifthSite">
+                <input type="text" class="tracksiteInput" id = "sixthSite">
+                <input type="text" class="tracksiteInput" id = "seventhSite">
+                <input type="text" class="tracksiteInput" id = "eighthSite">
+                <input type="text" class="tracksiteInput" id = "ninthSite">
+                <input type="text" class="tracksiteInput" id = "tenthSite">
+                <div class="buttonsContainer"></div>
+            </div>  
+        </div>
+        <div class="container">
+            <h1>Today, you surfed for</h1>
+            <div id = "actualTime"></div>
+            <h1 id ="websites"></h1>
+            <canvas id = "myChart"></canvas>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vex.combined.min.js"></script>
+        <script src="Chart.js" ></script>
+    </body>
+</html>
